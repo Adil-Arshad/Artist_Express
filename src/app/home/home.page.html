@@ -1,0 +1,23 @@
+<ion-header>
+
+  <ion-toolbar>
+    <ion-title slot="start">Header</ion-title>
+
+    <ion-item>
+      <ion-searchbar (ionInput)="getItems($event)"></ion-searchbar>
+    </ion-item>
+
+    <ion-buttons slot="secondary">
+      <ion-button>
+        Login
+      </ion-button>
+    </ion-buttons>
+    <ion-buttons slot="primary">
+      <ion-button>
+        Sign Up
+      </ion-button>
+    </ion-buttons>
+
+  </ion-toolbar>
+
+</ion-header>
